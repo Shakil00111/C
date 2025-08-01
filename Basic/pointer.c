@@ -3,12 +3,13 @@
 int main() {
 
     int ver;
-    int* ptr;
+    int *ptr;
 
     ptr = &ver;
     *ptr = 4;
 
     printf("ver : %d", ver);
+    printf("\nptr : %d", *ptr);
     printf("\nptr : %p", ptr);
     printf("\ndecimel vlaue : %u", ptr);
 
